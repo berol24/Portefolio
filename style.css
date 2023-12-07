@@ -1,0 +1,93 @@
+/* Header */
+
+header{
+border: 1px solid red;
+width: 100%;
+height: 133px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #030617;
+}
+
+.logo{
+    width: 80px;
+height: 82px;
+margin-left: 90px;
+
+}
+
+.image-logo{
+    width: 100%;
+}
+
+.link .nav {
+    display: flex;
+  
+}
+.link .nav li {
+   margin-left: 43px;
+   list-style: none;
+   text-decoration: none;
+   color: white;
+}
+
+.link .nav li a {
+      text-decoration: none;
+}
+
+.contact{
+    margin-right: 90px;
+}
+.contact button{
+   color: white;
+   border-radius: 15px;
+   background: #0E76A8;
+   width: 159px;
+   height: 39px; 
+   border: none;
+font-family: Kanit;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+
+/* my info */
+
+.container{
+    border: 2px solid blue;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 800px; */
+    width: 100%;
+    border: 1px solid green;
+   align-items: center;
+   margin-top: 100px;
+
+}
+
+.text {
+
+    border: 1px solid purple;
+    margin-left: 90px;
+}
+
+.ma-photo {
+    width: 406px;
+    height: 321px; 
+    background: #BEC4CA;
+    margin-right: 90px;
+}
+
+.ma-photo .photo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 41px 82px;
+}
